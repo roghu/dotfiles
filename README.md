@@ -4,6 +4,7 @@ Using [dotbot](https://github.com/anishathalye/dotbot)
 
 ## Prereqs
 - [Git](https://git-scm.com)
+- [Bash](https://www.gnu.org/software/bash/)
 
 ## Use
 ```sh
