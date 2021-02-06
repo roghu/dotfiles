@@ -8,6 +8,7 @@
   - ~/.config/git
 
 - link: {
+  ~/.bash_profile: bash/profile,
   ~/.inputrc: bash/inputrc,
   ~/.config/git/config: git/config,
   ~/.config/git/ignore: git/ignore
