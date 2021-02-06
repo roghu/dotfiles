@@ -4,5 +4,12 @@
 
 - clean: ['~']
 
+- create:
+  - ~/.config/git
+
+- link: {
+  ~/.config/git/config: git/config
+}
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
