@@ -1,3 +1,5 @@
 [user]
     name = Roger Hughes
     email = roghu.ux@gmail.com
+[core]
+    excludesfile = ~/.config/git/ignore
