@@ -1,3 +1,6 @@
 # Editor
 export EDITOR=vim
 export VISUAL=vim
+
+# Starship prompt
+eval "$(starship init bash)"
