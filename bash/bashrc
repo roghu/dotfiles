@@ -2,5 +2,10 @@
 export EDITOR=vim
 export VISUAL=vim
 
+# pyenv
+export PATH="${HOME}/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # Starship prompt
 eval "$(starship init bash)"

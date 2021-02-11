@@ -6,6 +6,7 @@ Using [dotbot](https://github.com/anishathalye/dotbot)
 - [Bash](https://www.gnu.org/software/bash/)
 - [Fantasque Sans Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono)
 - [Git](https://git-scm.com)
+- [Pyenv](https://github.com/pyenv/pyenv)
 - [Starship](https://starship.rs/)
 
 ## Use
