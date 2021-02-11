@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Here you can plug all the plugins you want
     " Let's try to plug these packages
-    
+
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{'
@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " comments
     Plug 'tpope/vim-commentary'
     " linters
-    Plug 'dense-analysis/ale'   
+    Plug 'dense-analysis/ale'
 call plug#end()
 
 set number
@@ -49,11 +49,11 @@ autocmd FileType nim setlocal commentstring=#\ %s
 
 " Ale
 let g:ale_linters = {
-\   'nim': ['nimcheck'],
+\   'python': ['flake8', 'mypy'],
 \}
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'nim': ['nimpretty'],
+\   'python': ['black'],
 \}
 let g:ale_set_quickfix = 1
 let g:ale_fix_on_save = 1
