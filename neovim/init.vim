@@ -44,6 +44,12 @@ set copyindent      " copy indent from the previous line
 set clipboard+=unnamedplus
 " }}} Clipboard
 "
+" No arrow keys allowed
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 " vim-commentary
 autocmd FileType nim setlocal commentstring=#\ %s
 
