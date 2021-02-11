@@ -3,3 +3,17 @@
     email = roghu.ux@gmail.com
 [core]
     excludesfile = ~/.config/git/ignore
+
+[difftool]
+    prompt = true
+[diff]
+    tool = nvimdiff
+[difftool "nvimdiff"]
+    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+
+[merge]
+    tool = nvimdiff
+[mergetool]
+    keepBackup = false
+[mergetool "nvimdiff"]
+    cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
