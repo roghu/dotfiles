@@ -14,7 +14,8 @@
   ~/.inputrc: bash/inputrc,
   ~/.config/git/config: git/config,
   ~/.config/git/ignore: git/ignore,
-  ~/.config/nvim/init.vim: neovim/init.vim
+  ~/.config/nvim/init.vim: neovim/init.vim,
+  ~/.config/nvim/ginit.vim: neovim/ginit.vim
 }
 
 - shell:
