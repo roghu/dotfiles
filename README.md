@@ -10,6 +10,12 @@ Using [dotbot](https://github.com/anishathalye/dotbot)
 - [Pyenv](https://github.com/pyenv/pyenv)
 - [Starship](https://starship.rs/)
 
+## Tools to install
+* [Shellcheck](https://www.shellcheck.net/)
+
+## Tools to install via pip
+* [gitlint](https://github.com/jorisroovers/gitlint)
+
 ## Use
 ```sh
 ./install
