@@ -16,6 +16,9 @@ Using [dotbot](https://github.com/anishathalye/dotbot)
 ## Tools to install via pip
 * [gitlint](https://github.com/jorisroovers/gitlint)
 
+## Nice to have
+* [Seoul256 Terminal](https://github.com/junegunn/seoul256.vim)
+
 ## Use
 ```sh
 ./install

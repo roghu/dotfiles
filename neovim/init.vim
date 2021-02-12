@@ -22,9 +22,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-commentary'
     " linters
     Plug 'dense-analysis/ale'
+    " colorscheme
+    Plug 'junegunn/seoul256.vim'    
 call plug#end()
 
 set number
+
+" colorscheme
+colo seoul256
 
 " jk | Escaping!
 inoremap jk <Esc>
