@@ -4,4 +4,5 @@
 # bin
 export PATH=${HOME}/bin:$PATH
 
-source ~/.bashrc
+# shellcheck source=/home/roger/.bashrc
+source "${HOME}/.bashrc"
