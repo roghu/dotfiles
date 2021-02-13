@@ -21,5 +21,10 @@ alias ll='ls -la'
 ## Show hidden files ##
 alias la='ls -d .*'
 
+## Colorize the grep command output for ease of use
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
 # Starship prompt
 eval "$(starship init bash)"
