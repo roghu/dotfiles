@@ -4,6 +4,7 @@
 export EDITOR=nvim
 export VISUAL=nvim
 alias vim=nvim
+alias edit=nvim
 
 # pyenv
 export PATH="${HOME}/.pyenv/bin:$PATH"
@@ -28,7 +29,6 @@ alias fgrep='fgrep --color=auto'
 
 ## Make parent directories on demand
 alias mkdir='mkdir -pv'
-
 
 # Starship prompt
 eval "$(starship init bash)"
