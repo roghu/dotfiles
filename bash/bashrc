@@ -30,5 +30,8 @@ alias fgrep='fgrep --color=auto'
 ## Make parent directories on demand
 alias mkdir='mkdir -pv'
 
+## Controling ping
+alias ping='ping -c 5'
+
 # Starship prompt
 eval "$(starship init bash)"
