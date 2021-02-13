@@ -10,5 +10,10 @@ export PATH="${HOME}/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+# aliases
+
+## Colorize the ls output ##
+alias ls='ls --color=auto'
+
 # Starship prompt
 eval "$(starship init bash)"
