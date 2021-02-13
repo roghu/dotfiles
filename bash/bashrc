@@ -18,5 +18,8 @@ alias ls='ls --color=auto'
 ## Use a long listing format ##
 alias ll='ls -la'
 
+## Show hidden files ##
+alias la='ls -d .*'
+
 # Starship prompt
 eval "$(starship init bash)"
